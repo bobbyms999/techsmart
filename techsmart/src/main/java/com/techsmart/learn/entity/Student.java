@@ -22,4 +22,49 @@ public class Student {
 	protected String emailAddress;
 	protected String message;
 
+	public int getContactNo() {
+		return contactNo;
+	}
+
+	public void setContactNo(int contactNo) {
+		this.contactNo = contactNo;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [contactNo=" + contactNo + ", fullName=" + fullName + ", phoneNumber=" + phoneNumber
+				+ ", emailAddress=" + emailAddress + ", message=" + message + "]";
+	}
 }
